@@ -1,4 +1,4 @@
-const HeroContainer = () => {
+const Hero = () => {
   return (
     <div className="self-stretch bg-white flex flex-col pt-0 px-[75px] pb-11 items-center justify-start text-left text-[72.01px] text-black font-poppins md:pl-10 md:pr-10 md:box-border sm:pl-5 sm:pr-5 sm:box-border">
       <div className="self-stretch rounded-[44.26px] bg-whitesmoke-100 flex flex-row pt-[50.9900016784668px] px-10 pb-0.5 items-center justify-center gap-[38px] lg:flex-col">
@@ -37,4 +37,4 @@ const HeroContainer = () => {
   );
 };
 
-export default HeroContainer;
+export default Hero;

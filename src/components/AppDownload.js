@@ -1,4 +1,4 @@
-const AppDownloadContainer = () => {
+const AppDownload = () => {
   return (
     <div className="self-stretch bg-white flex flex-row pt-[71px] px-[164px] pb-[94px] items-center justify-center gap-[176px] text-left text-17xl text-black font-poppins lg:flex-col md:flex-col">
       <div className="flex flex-col items-start justify-start">
@@ -14,16 +14,20 @@ const AppDownloadContainer = () => {
             </div>
           </div>
           <div className="flex flex-row items-start justify-start gap-[14.25px]">
-            <img
-              className="rounded-5xs-5 max-w-full overflow-hidden max-h-full object-cover"
-              alt=""
-              src="/frame-64@2x.png"
-            />
-            <img
-              className="rounded-5xs-5 max-w-full overflow-hidden max-h-full object-cover"
-              alt=""
-              src="/frame-65@2x.png"
-            />
+            <button>
+              <img
+                className="cursor-pointer rounded-5xs-5 max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/frame-64@2x.png"
+              />
+            </button>
+            <button>
+              <img
+                className="cursor-pointer rounded-5xs-5 max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/frame-65@2x.png"
+              />
+            </button>
           </div>
         </div>
       </div>
@@ -36,4 +40,4 @@ const AppDownloadContainer = () => {
   );
 };
 
-export default AppDownloadContainer;
+export default AppDownload;

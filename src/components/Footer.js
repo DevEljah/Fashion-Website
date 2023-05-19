@@ -1,4 +1,4 @@
-const FashionContainer = () => {
+const Footer = () => {
   return (
     <div className="self-stretch bg-black flex flex-col pt-[89px] px-[75px] pb-[110px] items-center justify-start text-left text-11xl text-white font-poppins sm:pl-[30px] sm:pr-[30px] sm:box-border">
       <div className="self-stretch flex flex-row items-start justify-between lg:flex-col lg:gap-[50px]">
@@ -11,17 +11,17 @@ const FashionContainer = () => {
           </div>
           <div className="flex flex-row items-start justify-start gap-[10.5px]">
             <img
-              className="relative rounded-[11.25px] w-[39px] h-[39px]"
+              className="cursor-pointer relative rounded-[11.25px] w-[39px] h-[39px]"
               alt=""
               src="/frame-10.svg"
             />
             <img
-              className="relative rounded-[11.25px] w-[39px] h-[39px]"
+              className="cursor-pointer relative rounded-[11.25px] w-[39px] h-[39px]"
               alt=""
               src="/frame-11.svg"
             />
             <img
-              className="relative rounded-[11.25px] w-[39px] h-[39px]"
+              className="cursor-pointer relative rounded-[11.25px] w-[39px] h-[39px]"
               alt=""
               src="/frame-12.svg"
             />
@@ -85,4 +85,4 @@ const FashionContainer = () => {
   );
 };
 
-export default FashionContainer;
+export default Footer;
